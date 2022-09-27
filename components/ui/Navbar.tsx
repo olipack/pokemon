@@ -15,7 +15,8 @@ export const Navbar = () => {
         justifyContent: 'start',
         padding: '0x 20px',
         backgroundColor: theme?.colors.gray900.value,
-      }}>
+      }}
+    >
       <Image
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
         alt="icono de la app"
@@ -38,7 +39,7 @@ export const Navbar = () => {
 
       <NextLink href="/favorites" passHref>
         <Link css={{ marginRight: '10px' }}>
-          <Text color="white">Favoritos</Text>
+          <Text color="white">Favoritos !</Text>
         </Link>
       </NextLink>
     </div>
